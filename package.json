@@ -1,0 +1,48 @@
+{
+  "name": "musicstorm",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js"
+  },
+  "author": "trofimovich.eugene.projects@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.7.0",
+    "exports-loader": "^0.6.3",
+    "imports-loader": "^0.7.0",
+    "jsdom": "^9.9.1",
+    "mocha": "^3.2.0",
+    "react-addons-test-utils": "^15.4.1",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "react-router": "^3.0.0",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0",
+    "soundcloud": "^3.1.2",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ]
+  }
+}
